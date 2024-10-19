@@ -1,0 +1,9 @@
+.app-container {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content-container {
+  position: relative;
+  z-index: 1;
+}
