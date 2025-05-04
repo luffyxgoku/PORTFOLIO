@@ -144,7 +144,7 @@ function Home() {
             </div>
             <div className="border-0 text-center w-[350px] h-[350px] pt-8 rounded-xl text-white bg-sky-950 hover:bg-black hover:scale-105 hover:transform transition-transform duration-300">
               <h2 className="pb-3">Latest Project</h2>
-              <p>
+              {/* <p>
                 <strong>AUTHIFY</strong> is live and features a responsive
                 design, user authentication, email verification, and password
                 reset functionality.
@@ -153,6 +153,13 @@ function Home() {
                 The app offers a seamless user experience with secure login,
                 multi-step email verification, and password management via email
                 links.
+              </p> */}
+              <p>
+                <strong>QURAN Companian</strong> is built and features a
+                responsive design, full Quran in Arabic or English translation,
+                access to all major Hadith collections, and live prayer timings.
+                The app offers a seamless user experience with rich Islamic
+                content and tools for daily worship.
               </p>
 
               <p
@@ -170,7 +177,7 @@ function Home() {
                 together!
               </p>
               <p className="text-white">
-                <strong>Email:</strong> kinghunz12@gmail.com
+                <strong>Email:</strong> samiadnan2806@gmail.com
               </p>
               <p className="text-white">
                 <strong>Phone:</strong> +91 6204109940

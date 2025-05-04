@@ -111,7 +111,7 @@ function About() {
               </div>
               <div className="p-0">
                 <p className="font-semibold mb-0">EMAIL</p>
-                <p>kinghunz12@gmail.com</p>
+                <p>samiadnan2806@gmail.com</p>
               </div>
               <div className="ml-10 sm:ml-0 p-0">
                 <p className="font-semibold mb-0">EMPLOYMENT</p>

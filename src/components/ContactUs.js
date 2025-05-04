@@ -1,4 +1,4 @@
- import React, { useRef } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import HomeFooter from "./HomeFooter.js";
 
@@ -55,12 +55,12 @@ export const ContactUs = () => {
               className="flex items-center no-underline ml-2 "
               href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
             >
-              kinghunz12@gmail.com
+              samiadnan2806@gmail.com
             </a>
           </div>
         </div>
-         <div className="ml-3 sm:ml-0 w-5/6 lg:w-1/2 mr-12">
-        <div className="lg:flex-1 px-4 py-2 ml-4 border-1 rounded-lg shadow-md ">
+        <div className="ml-3 sm:ml-0 w-5/6 lg:w-1/2 mr-12">
+          <div className="lg:flex-1 px-4 py-2 ml-4 border-1 rounded-lg shadow-md ">
             <h4 className="mb-4 mt-2 ">Send me a message</h4>
             <form className="" ref={form} onSubmit={sendEmail}>
               <input

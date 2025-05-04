@@ -9,7 +9,7 @@ const HomeFooter = () => {
             <strong>Phone:</strong> +91 6204109940
           </p>
           <p className="mb-1 text-black">
-            <strong>Email:</strong> kinghunz12@gmail.com
+            <strong>Email:</strong> samiadnan2806@gmail.com
           </p>
           {/* <p className="mb-1 text-black">
             <strong>Address:</strong> H.no-14, R.no-12, Nr K.M.U.Highschool, Zakirnagar(E),Mango,
@@ -19,7 +19,6 @@ const HomeFooter = () => {
           <p className="mb-1 text-black">
             <strong>Country:</strong> India.
           </p>
-
         </div>
       </div>
       <div className="flex justify-center items-center ">

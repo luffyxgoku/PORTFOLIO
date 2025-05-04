@@ -3,67 +3,23 @@ import React from "react";
 function Projects() {
   const projectsData = [
     {
+      id: 0,
+      name: "QURAN COMPANION",
+      tech_used:
+        "JavaScript, React.js, React Router DOM, Framer Motion, Real APIs.",
+      image:
+        "https://cdn.pixabay.com/photo/2024/09/03/20/31/man-9020216_1280.jpg",
+      link: "https://quran-companion-app.onrender.com/",
+      github_link: "https://github.com/luffyxgoku/QURAN-COMPANION",
+      des_1:
+        "Developed QURAN COMPANION, a mobile-first Islamic web app using React and Framer Motion, designed to provide a smooth, engaging spiritual experience with elegant animations and clean navigation.",
+      des_2:
+        "Features include live prayer timings based on the user’s dynamic location, access to 6 major Hadith books, stories of all prophets, Prophet Muhammad’s life journey, dhikr and duas for specific occasions, and rich knowledge about Salah (prayer), and much more.",
+      des_3:
+        "Optimized specifically for mobile screens, offering users an immersive experience on handheld devices. Built with React Router DOM for fluid navigation. Desktop view is currently not prioritized.",
+    },
+    {
       id: 1,
-      name: "DEAL FINDER",
-      tech_used: "React js, Node js, JWT Auth, Stripe, Postgresql.",
-      image:
-        "https://img.freepik.com/premium-photo/led-lamp-tools-pliers-screwdriver-tester-black-background-view-from_268192-2434.jpg?w=996",
-      link: "https://www.wikipedia.org",
-      github_link: "https://github.com/luffyxgoku/DEALFINDER-FE",
-      des_1:
-        "Developed a comprehensive hardware and plumbing services platform using React, Node.js, Stripe, JWT authentication, and PostgreSQL.",
-      des_2:
-        "Integrated Stripe for seamless and secure payment transactions, allowing users to easily book and pay for services online.Designed and implemented JWT-based authentication to provide secure user access, ensuring data privacy and integrity across the platform.",
-      des_3:
-        "Led the back-end development with Node.js, ensuring efficient service management, secure user authentication via JWT, and reliable data storage using PostgreSQL.",
-    },
-    {
-      id: 2,
-      name: "FILMY DUNIYA",
-      tech_used: "React js, Node js, Stripe, Firebase, TMDB Api.",
-      image:
-        "https://miro.medium.com/v2/resize:fit:1000/1*jjOITb2JFxwAHIKrET2Cuw.jpeg",
-      link: "https://www.wikipedia.org",
-      github_link: "https://github.com/luffyxgoku/FILMY-DUNIYA",
-      des_1:
-        "Developed Filmy Duniya, a Netflix-like platform for movie recommendations and streaming, using the TMDB API to fetch movie content.",
-      des_2:
-        "Integrated TMDB API for movie data, designed secure user authentication and data storage with Firebase, and implemented Stripe for payment processing.",
-      des_3:
-        "Led front-end development with React for a dynamic user interface, and back-end development with Node.js for efficient API handling and user authentication.",
-    },
-    {
-      id: 3,
-      name: "BLOGSPHERE",
-      tech_used: "Node.js, Express.js, MongoDB, EJS, JWT.",
-      image:
-        "https://png.pngtree.com/png-vector/20220810/ourmid/pngtree-blogging-concept-picture-writer-laptop-png-image_5722986.png",
-      link: "https://blogsphere-10.onrender.com/",
-      github_link: "https://github.com/luffyxgoku/BLOGSPHERE",
-      des_1:
-        "Developed BlogSphere, a live content management platform where users can create, view, and comment on blogs. It includes user authentication with JWT for secure login and registration.",
-      des_2:
-        "Implemented MongoDB for scalable and secure data storage, allowing efficient management of user accounts and blog data. Used EJS for server-side rendering of blog posts, ensuring a dynamic and responsive user experience.",
-      des_3:
-        "Incorporated user roles and permissions, allowing logged-in users to create and comment on blogs while ensuring public access to blog viewing. The app is fully hosted live for easy access.",
-    },
-    {
-      id: 4,
-      name: "FACE FINDER",
-      tech_used: "React js, Node js, Express js,  Postgresql, Clarifai Api.",
-      image:
-        "https://learn.g2.com/hubfs/G2CM_FI454_Learn_Article_Images_%5BFacial_recognition%5D_V1a-1.png",
-      link: "https://www.wikipedia.org",
-      github_link: "https://github.com/luffyxgoku/FACEFINDER-FE",
-      des_1:
-        "Developed Face Finder, an application that detects faces in uploaded images and creates a border around each detected face using the Clarifai API.",
-      des_2:
-        "Integrated Clarifai API for face detection and designed the application architecture to handle efficient image processing. Utilized PostgreSQL for secure and scalable data storage, ensuring quick and reliable access to user data and image information.",
-      des_3:
-        "Developed Face Finder, an application that detects faces in uploaded images and creates a border around each detected face using the Clarifai API.",
-    },
-    {
-      id: 5,
       name: "PRODUCT-STORE",
       tech_used:
         "React.js, Node.js, Express.js, MongoDB, JWT, Chakra UI, Zustand.",
@@ -79,11 +35,26 @@ function Projects() {
         "PRODUCT-STORE offers a smooth user experience with dark mode and light mode features, user registration, sign-in, and sign-out functionality, all on a responsive, live-hosted platform.",
     },
     {
-      id: 6,
+      id: 2,
+      name: "BLOGSPHERE",
+      tech_used: "Node.js, Express.js, MongoDB, EJS, JWT.",
+      image:
+        "https://png.pngtree.com/png-vector/20220810/ourmid/pngtree-blogging-concept-picture-writer-laptop-png-image_5722986.png",
+      link: "https://blogsphere-10.onrender.com/",
+      github_link: "https://github.com/luffyxgoku/BLOGSPHERE",
+      des_1:
+        "Developed BlogSphere, a live content management platform where users can create, view, and comment on blogs. It includes user authentication with JWT for secure login and registration.",
+      des_2:
+        "Implemented MongoDB for scalable and secure data storage, allowing efficient management of user accounts and blog data. Used EJS for server-side rendering of blog posts, ensuring a dynamic and responsive user experience.",
+      des_3:
+        "Incorporated user roles and permissions, allowing logged-in users to create and comment on blogs while ensuring public access to blog viewing. The app is fully hosted live for easy access.",
+    },
+    {
+      id: 3,
       name: "AUTHIFY",
       tech_used: "React.js, Node.js, Express.js, MongoDB, JWT, Mailtrack.",
       image:
-        "https://www.loginradius.com/blog/static/2777d4b53aa6128513f070b7f78f3651/03979/server-proc-150x150.png",
+        "https://cdn.pixabay.com/photo/2024/05/23/12/24/ai-generated-8783105_1280.jpg",
       link: "https://authify-h73h.onrender.com/",
       github_link: "https://github.com/luffyxgoku/AUTHIFY",
       des_1:
@@ -93,7 +64,51 @@ function Projects() {
       des_3:
         "The app features a seamless user experience with a responsive design and email notifications, all hosted live for real-time authentication processes.",
     },
-
+    {
+      id: 4,
+      name: "DEAL FINDER",
+      tech_used: "React js, Node js, JWT Auth, Stripe, Postgresql.",
+      image:
+        "https://img.freepik.com/premium-photo/led-lamp-tools-pliers-screwdriver-tester-black-background-view-from_268192-2434.jpg?w=996",
+      link: "https://www.wikipedia.org",
+      github_link: "https://github.com/luffyxgoku/DEALFINDER-FE",
+      des_1:
+        "Developed a comprehensive hardware and plumbing services platform using React, Node.js, Stripe, JWT authentication, and PostgreSQL.",
+      des_2:
+        "Integrated Stripe for seamless and secure payment transactions, allowing users to easily book and pay for services online.Designed and implemented JWT-based authentication to provide secure user access, ensuring data privacy and integrity across the platform.",
+      des_3:
+        "Led the back-end development with Node.js, ensuring efficient service management, secure user authentication via JWT, and reliable data storage using PostgreSQL.",
+    },
+    {
+      id: 5,
+      name: "FACE FINDER",
+      tech_used: "React js, Node js, Express js,  Postgresql, Clarifai Api.",
+      image:
+        "https://learn.g2.com/hubfs/G2CM_FI454_Learn_Article_Images_%5BFacial_recognition%5D_V1a-1.png",
+      link: "https://www.wikipedia.org",
+      github_link: "https://github.com/luffyxgoku/FACEFINDER-FE",
+      des_1:
+        "Developed Face Finder, an application that detects faces in uploaded images and creates a border around each detected face using the Clarifai API.",
+      des_2:
+        "Integrated Clarifai API for face detection and designed the application architecture to handle efficient image processing. Utilized PostgreSQL for secure and scalable data storage, ensuring quick and reliable access to user data and image information.",
+      des_3:
+        "Developed Face Finder, an application that detects faces in uploaded images and creates a border around each detected face using the Clarifai API.",
+    },
+    {
+      id: 6,
+      name: "FILMY DUNIYA",
+      tech_used: "React js, Node js, Stripe, Firebase, TMDB Api.",
+      image:
+        "https://miro.medium.com/v2/resize:fit:1000/1*jjOITb2JFxwAHIKrET2Cuw.jpeg",
+      link: "https://www.wikipedia.org",
+      github_link: "https://github.com/luffyxgoku/FILMY-DUNIYA",
+      des_1:
+        "Developed Filmy Duniya, a Netflix-like platform for movie recommendations and streaming, using the TMDB API to fetch movie content.",
+      des_2:
+        "Integrated TMDB API for movie data, designed secure user authentication and data storage with Firebase, and implemented Stripe for payment processing.",
+      des_3:
+        "Led front-end development with React for a dynamic user interface, and back-end development with Node.js for efficient API handling and user authentication.",
+    },
     // Add more projects
   ];
 
