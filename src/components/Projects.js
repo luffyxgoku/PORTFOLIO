@@ -9,8 +9,8 @@ function Projects() {
         "JavaScript, React.js, React Router DOM, Framer Motion, Real APIs.",
       image:
         "https://cdn.pixabay.com/photo/2024/09/03/20/31/man-9020216_1280.jpg",
-      link: "https://quran-companion-app.onrender.com/",
-      github_link: "https://github.com/luffyxgoku/QURAN-COMPANION",
+      link: "https://quran-companion.netlify.app/",
+      github_link: "https://github.com/luffyxgoku",
       des_1:
         "Developed QURAN COMPANION, a mobile-first Islamic web app using React and Framer Motion, designed to provide a smooth, engaging spiritual experience with elegant animations and clean navigation.",
       des_2:
@@ -70,7 +70,7 @@ function Projects() {
       tech_used: "React js, Node js, JWT Auth, Stripe, Postgresql.",
       image:
         "https://img.freepik.com/premium-photo/led-lamp-tools-pliers-screwdriver-tester-black-background-view-from_268192-2434.jpg?w=996",
-      link: "https://www.wikipedia.org",
+      link: "",
       github_link: "https://github.com/luffyxgoku/DEALFINDER-FE",
       des_1:
         "Developed a comprehensive hardware and plumbing services platform using React, Node.js, Stripe, JWT authentication, and PostgreSQL.",
@@ -85,7 +85,7 @@ function Projects() {
       tech_used: "React js, Node js, Express js,  Postgresql, Clarifai Api.",
       image:
         "https://learn.g2.com/hubfs/G2CM_FI454_Learn_Article_Images_%5BFacial_recognition%5D_V1a-1.png",
-      link: "https://www.wikipedia.org",
+      link: "",
       github_link: "https://github.com/luffyxgoku/FACEFINDER-FE",
       des_1:
         "Developed Face Finder, an application that detects faces in uploaded images and creates a border around each detected face using the Clarifai API.",
@@ -100,7 +100,7 @@ function Projects() {
       tech_used: "React js, Node js, Stripe, Firebase, TMDB Api.",
       image:
         "https://miro.medium.com/v2/resize:fit:1000/1*jjOITb2JFxwAHIKrET2Cuw.jpeg",
-      link: "https://www.wikipedia.org",
+      link: "",
       github_link: "https://github.com/luffyxgoku/FILMY-DUNIYA",
       des_1:
         "Developed Filmy Duniya, a Netflix-like platform for movie recommendations and streaming, using the TMDB API to fetch movie content.",
@@ -134,15 +134,17 @@ function Projects() {
                 alt={project.name}
               />
               <div className="flex flex-row">
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="bg-sky-600  border-0 text-white font-medium px-4 py-2 rounded-lg mt-2 mr-2 hover:bg-black transition-transform transform hover:scale-110">
-                    LiveLink
-                  </button>
-                </a>
+                {project.link ? (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="bg-sky-600  border-0 text-white font-medium px-4 py-2 rounded-lg mt-2 mr-2 hover:bg-black transition-transform transform hover:scale-110">
+                      LiveLink
+                    </button>
+                  </a>
+                ) : null}
                 <a
                   href={project.github_link}
                   target="_blank"
