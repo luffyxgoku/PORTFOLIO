@@ -79,7 +79,7 @@ function Home() {
               </h2>
               <h1 className=" text-black font-semibold md:text-5xl lg:text-6xl">
                 {/* <span className="text-black">MD. SAMI </span>ADNAN */}
-                MD. SAMI ADNAN
+                MD SAMI ADNAN
               </h1>
 
               <h3 className="mt-4 mb-0 md:text-3xl lg:text-4xl">

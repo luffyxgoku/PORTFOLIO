@@ -3,14 +3,14 @@ import React from "react";
 function Projects() {
   const projectsData = [
     {
-      id: 0,
+      id: 1,
       name: "QURAN COMPANION",
       tech_used:
         "JavaScript, React.js, React Router DOM, Framer Motion, Real APIs.",
       image:
         "https://cdn.pixabay.com/photo/2024/09/03/20/31/man-9020216_1280.jpg",
       link: "https://quran-portal.netlify.app/",
-      github_link: "https://github.com/luffyxgoku",
+      github_link: "https://github.com/luffyxgoku/Quran-Companion",
       des_1:
         "Developed QURAN COMPANION, a mobile-first Islamic web app using React and Framer Motion, designed to provide a smooth, engaging spiritual experience with elegant animations and clean navigation.",
       des_2:
@@ -19,7 +19,23 @@ function Projects() {
         "Optimized specifically for mobile screens, offering users an immersive experience on handheld devices. Built with React Router DOM for fluid navigation. Desktop view is currently not prioritized.",
     },
     {
-      id: 1,
+      id: 2,
+      name: "EDITRA",
+      tech_used:
+        "MongoDB, Express.js, React.js, Node.js, JWT, Bcrypt, Nodemailer, Framer Motion",
+      image:
+        "https://cdn.prod.website-files.com/64103d21294ba09537b876c8/6718a2c06ab0b142ba186bf3_66630e88b97b0e9bad2f16e9_AD_4nXe4MWZJEf-g-R1VmkfQiVEtdPKjId2Bes1N86jww2cNXcpZAzbkHfa9WT0Ph5nF_HpZrDgw8BasdU1VN5ImXgFKJ0j-xmzJC6VRJ4K4ESMrl-VrJAf7LnILiML0DV7Qlnbmynm2fUOLfXSuktYyyH1HqiU.png",
+      link: "",
+      github_link: "https://github.com/luffyxgoku/Editra",
+      des_1:
+        "Created EDITRA, a dynamic CMS web application where users can view blog items in detail and contact the admin through a dedicated contact page.",
+      des_2:
+        "The admin has full control over the platform — including signup, login, logout, creating, editing, and deleting items (blogs), viewing user enquiries, and managing every section of the website such as the banner, about, services, blog, footer, contact, and navbar.",
+      des_3:
+        "Built with MERN stack and enhanced using JWT for authentication, Bcrypt for security, and Nodemailer for handling emails. Framer Motion and CSS are used for smooth animations and responsive styling.",
+    },
+    {
+      id: 3,
       name: "PRODUCT-STORE",
       tech_used:
         "React.js, Node.js, Express.js, MongoDB, JWT, Chakra UI, Zustand.",
@@ -35,7 +51,7 @@ function Projects() {
         "PRODUCT-STORE offers a smooth user experience with dark mode and light mode features, user registration, sign-in, and sign-out functionality, all on a responsive, live-hosted platform.",
     },
     {
-      id: 2,
+      id: 4,
       name: "BLOGSPHERE",
       tech_used: "Node.js, Express.js, MongoDB, EJS, JWT.",
       image:
@@ -50,7 +66,7 @@ function Projects() {
         "Incorporated user roles and permissions, allowing logged-in users to create and comment on blogs while ensuring public access to blog viewing. The app is fully hosted live for easy access.",
     },
     {
-      id: 3,
+      id: 5,
       name: "AUTHIFY",
       tech_used: "React.js, Node.js, Express.js, MongoDB, JWT, Mailtrack.",
       image:
@@ -65,7 +81,7 @@ function Projects() {
         "The app features a seamless user experience with a responsive design and email notifications, all hosted live for real-time authentication processes.",
     },
     {
-      id: 4,
+      id: 6,
       name: "DEAL FINDER",
       tech_used: "React js, Node js, JWT Auth, Stripe, Postgresql.",
       image:
@@ -80,7 +96,7 @@ function Projects() {
         "Led the back-end development with Node.js, ensuring efficient service management, secure user authentication via JWT, and reliable data storage using PostgreSQL.",
     },
     {
-      id: 5,
+      id: 7,
       name: "FACE FINDER",
       tech_used: "React js, Node js, Express js,  Postgresql, Clarifai Api.",
       image:
@@ -95,7 +111,7 @@ function Projects() {
         "Developed Face Finder, an application that detects faces in uploaded images and creates a border around each detected face using the Clarifai API.",
     },
     {
-      id: 6,
+      id: 8,
       name: "FILMY DUNIYA",
       tech_used: "React js, Node js, Stripe, Firebase, TMDB Api.",
       image:

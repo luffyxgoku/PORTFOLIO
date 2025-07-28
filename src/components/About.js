@@ -54,56 +54,91 @@ function About() {
             <p>
               <strong>About Me </strong>
               <p>
-                Hi, I'm Sami, a passionate and dedicated full stack web
-                developer with over 4 years of experience in building dynamic
-                and user-centric web applications. I specialize in both
-                front-end and back-end development, ensuring seamless
-                integration and performance across the entire stack.
+                Hi, I'm Md Sami Adnan, a passionate and results-driven{" "}
+                <span className="font-semibold text-sky-600">
+                  Full Stack Web Developer
+                </span>{" "}
+                with years of experience in building scalable, responsive, and
+                user-centric web applications. I specialize in both frontend and
+                backend technologies, delivering seamless integration and high
+                performance across the entire stack.
               </p>
 
               <strong>Professional Background </strong>
               <p>
-                My journey in web development began in 2020, and since then,
-                I've honed my skills in various technologies including HTML,
-                CSS, JavaScript, React, Redux, Node.js, Express, MongoDB and
-                Postgresql. I enjoy tackling complex problems and transforming
-                ideas into functional, visually appealing websites and
-                applications.
+                My web development journey began in{" "}
+                <span className="font-semibold text-sky-600">2020</span>, and
+                since then, I’ve developed a wide range of full stack
+                applications using technologies such as HTML, CSS, JavaScript,
+                React, Redux, Node.js, Express, MongoDB, and PostgreSQL.
+              </p>
+
+              <p>
+                From{" "}
+                <span className="font-semibold text-sky-600">June 2024</span> to
+                <span className="font-semibold text-sky-600"> May 2025</span>, I
+                worked remotely as a
+                <span className="font-semibold text-sky-600">
+                  {" "}
+                  Software Engineer{" "}
+                </span>
+                at
+                <span className="font-semibold text-sky-600">
+                  {" "}
+                  Talent Industry
+                </span>
+                , where I engineered scalable, production-ready web applications
+                using the{" "}
+                <span className="font-semibold text-sky-600">MERN stack</span>.
+                I developed RESTful APIs with Node.js and Express, secured
+                endpoints using JWT and HTTP-only cookies, and enforced strong
+                data protection with bcrypt and a well-structured MVC backend
+                architecture. On the frontend, I built modern, mobile-first user
+                interfaces with React.js and Context API, focusing on reusable
+                components, clean modular code, and optimal performance.
+                <br />
+                <br />I also optimized deployment workflows and ensured
+                application reliability by managing hosting and continuous
+                delivery pipelines via platforms like{" "}
+                <span className="font-semibold text-sky-600">
+                  Render
+                </span> and{" "}
+                <span className="font-semibold text-sky-600">Netlify</span>.
+                This experience significantly sharpened my ability to work
+                independently in a remote environment, maintain delivery
+                consistency, and collaborate effectively across teams.
               </p>
 
               <strong>Interests and Hobbies </strong>
               <p>
-                When I'm not coding, you'll often find me with my nose in a
-                book, exploring different genres and gaining new perspectives.
-                I'm also an avid football enthusiast – both on the field and
-                off. I love watching matches, analyzing games, and playing
-                football with friends. Socializing is another passion of mine; I
-                thrive on connecting with new people, exchanging ideas, and
-                building meaningful relationships.
+                Outside of coding, I’m committed to continuous learning and
+                staying up to date with the latest developments in web
+                technologies and software engineering. I’m passionate about
+                solving real-world problems through technology and collaborating
+                with other professionals to build impactful products.
               </p>
 
               <strong>My Approach </strong>
               <p>
-                In my work, I prioritize clean, maintainable code and user
-                experience. I believe in continuous learning and staying updated
-                with the latest industry trends to deliver the best possible
-                solutions. Whether it's a simple website or a complex platform,
-                I approach each project with creativity, precision, and a
-                commitment to excellence.
+                I believe in clean, maintainable code and designing with the
+                end-user in mind. My development process is focused on
+                reliability, scalability, and performance. Whether building from
+                scratch or scaling existing platforms, I bring clarity,
+                precision, and strategic thinking to every project.
               </p>
 
               <strong>Let's Connect </strong>
               <p>
-                I'm always open to new opportunities and collaborations. If
-                you're looking for a skilled web developer to bring your vision
-                to life, feel free to reach out. Let's create something amazing
-                together!
+                I’m open to new opportunities and meaningful collaborations. If
+                you're looking for a dedicated developer to help bring your
+                ideas to life, feel free to reach out—let’s create something
+                exceptional together.
               </p>
             </p>
             <div className="grid grid-cols-2 gap-3">
               <div className="p-0">
                 <p className="font-semibold mb-0">NAME</p>
-                <p>MD. SAMI ADNAN</p>
+                <p>MD SAMI ADNAN</p>
               </div>
               <div className="ml-10 sm:ml-0 p-0">
                 <p className="font-semibold mb-0">EDUCATION</p>
