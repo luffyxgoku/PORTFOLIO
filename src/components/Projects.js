@@ -41,7 +41,7 @@ function Projects() {
         "React.js, Node.js, Express.js, MongoDB, JWT, Chakra UI, Zustand.",
       image:
         "https://cdn.dribbble.com/users/918415/screenshots/9517366/media/655ff2a7581fce9573d418a0663bd81e.png",
-      link: "",
+      link: "https://product-store-9nvj.onrender.com/",
       github_link: "https://github.com/luffyxgoku/PRODUCTSTORE",
       des_1:
         "Developed PRODUCT-STORE, a live MERN stack eCommerce application with Chakra UI for styling and Zustand for state management. The app allows users to manage products by adding, editing, and deleting them.",
@@ -56,7 +56,7 @@ function Projects() {
       tech_used: "Node.js, Express.js, MongoDB, EJS, JWT.",
       image:
         "https://png.pngtree.com/png-vector/20220810/ourmid/pngtree-blogging-concept-picture-writer-laptop-png-image_5722986.png",
-      link: "",
+      link: "https://blogsphere-10.onrender.com/",
       github_link: "https://github.com/luffyxgoku/BLOGSPHERE",
       des_1:
         "Developed BlogSphere, a live content management platform where users can create, view, and comment on blogs. It includes user authentication with JWT for secure login and registration.",
@@ -71,7 +71,7 @@ function Projects() {
       tech_used: "React.js, Node.js, Express.js, MongoDB, JWT, Mailtrack.",
       image:
         "https://cdn.pixabay.com/photo/2024/05/23/12/24/ai-generated-8783105_1280.jpg",
-      link: "",
+      link: "https://authify-h73h.onrender.com/login",
       github_link: "https://github.com/luffyxgoku/AUTHIFY",
       des_1:
         "Developed AUTHIFY, a live MERN stack web application for user authentication, including registration, login, email verification, and password reset.",
@@ -125,7 +125,6 @@ function Projects() {
       des_3:
         "Led front-end development with React for a dynamic user interface, and back-end development with Node.js for efficient API handling and user authentication.",
     },
-    // Add more projects
   ];
 
   return (
